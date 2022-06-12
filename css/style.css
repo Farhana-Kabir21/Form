@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.form_template {
+  background-color: #2e3137;
+  width: 100%;
+}
+.form_area {
+  width: 30%;
+
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.form_heading {
+  text-align: center;
+
+  color: #d7d7d7;
+
+  color: 666;
+
+  margin-bottom: 50px;
+}
+.form_heading h1 {
+  color: #7fc4ff;
+
+  font-size: 50px;
+
+  margin-bottom: 20px;
+}
+.form_heading p {
+  color: #d7d7d7;
+}
+
+.form_elements {
+  background-color: #22262b;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.form_elements_heading {
+  background: #454955;
+  text-align: center;
+  padding: 20px 0px;
+}
+.form_elements_heading h2 {
+  font-weight: 300;
+  color: #d7d7d7;
+}
+
+.signup {
+  background: #22262b;
+  color: #d7d7d7;
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.signup form {
+}
+.signup form label {
+  display: block;
+}
+.signup form input {
+  width: 97%;
+  background: transparent;
+  background: #454955;
+  border-radius: 10px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  width: 80%;
+}
+.checkbox p {
+  width: 90%;
+}
+.checkbox input {
+  width: 5% !important;
+  width: 20px;
+  height: 15px;
+}
+
+.signup .submit {
+  height: 50px;
+  width: 20%;
+  color: #d7d7d7;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 0 !important;
+  background: #289fd2;
+  justify-content: center;
+  border: none;
+  font-weight: 800;
+}
+
+.signin {
+  text-align: center;
+  width: 50%;
+  padding-top: 50px;
+  border-top: 5px dotted aliceblue;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.signin p {
+  color: #d7d7d7;
+  padding-bottom: 30px;
+}
+
+.signin form {
+  background: #545965;
+}
+
+.signin form input {
+  display: flex;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 20px;
+  background: #545965;
+  color: #d7d7d7;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 14px;
+}
+
+input:focus-visible {
+  outline: none;
+}
